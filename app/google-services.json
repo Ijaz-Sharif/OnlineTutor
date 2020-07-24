@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "724087098427",
+    "firebase_url": "https://online-tutor-150b2.firebaseio.com",
+    "project_id": "online-tutor-150b2",
+    "storage_bucket": "online-tutor-150b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724087098427:android:fc361620bc4dec76d5e01e",
+        "android_client_info": {
+          "package_name": "is.fb.onlinetutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724087098427-bs95o7qkmscvmk39pc4vlec1m3l2ag5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "is.fb.onlinetutor",
+            "certificate_hash": "c032503212c57783ab5d43972f96a8b4e15c1954"
+          }
+        },
+        {
+          "client_id": "724087098427-siofsrj9jdf2uelcn88icmbrcvguj5l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ5Sr495ZFtDxanl0b00Zm8HNLTuq439w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724087098427-siofsrj9jdf2uelcn88icmbrcvguj5l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

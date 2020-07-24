@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Aprove_details">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tutor name :"
+    android:textSize="30sp"
+    android:id="@+id/dd"
+    android:textColor="@color/colorAccent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor name"
+        android:textSize="30sp"
+        android:layout_below="@id/dd"
+        android:id="@+id/t_n"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor number :"
+        android:textSize="30sp"
+        android:id="@+id/ddd"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/t_n"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor name"
+        android:layout_below="@id/ddd"
+        android:textSize="30sp"
+        android:id="@+id/t_nu"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor Education :"
+        android:textSize="30sp"
+        android:id="@+id/dddd"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/t_nu"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor name"
+        android:textSize="30sp"
+        android:id="@+id/t_ed"
+        android:layout_below="@id/dddd"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/t_d"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/t_ed"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aprove"
+        android:onClick="aprove"
+        android:background="@drawable/style"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dis aprove"
+        android:paddingLeft="10dp"
+        android:background="@drawable/style"
+        android:paddingRight="10dp"
+        android:onClick="disAprove"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
